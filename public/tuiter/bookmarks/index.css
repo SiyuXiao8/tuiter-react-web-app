@@ -3,7 +3,7 @@
     height: 60px;
     width: 600px;
     border-style: solid;
-    border-color: grey;
+    border-color: rgb(47, 51, 54);
     border-width: 1px;
 }
 
@@ -33,7 +33,7 @@
     height: 650px;
     width: 600px;
     border-style: solid;
-    border-color: grey;
+    border-color: rgb(47, 51, 54);
     border-width: 1px;
 }
 
@@ -91,7 +91,7 @@
     border-top-right-radius: 18px;
     border-top-left-radius: 18px;
     border-bottom: solid;
-    border-color: grey;
+    border-color: rgb(47, 51, 54);
     border-width: 1px;
 }
 
@@ -112,7 +112,7 @@
     float: right;
     margin-right: 15px;
     border-style: solid;
-    border-color: grey;
+    border-color: rgb(47, 51, 54);
     border-radius: 20px;
     width: 504px;
     height: 400px;
@@ -167,7 +167,7 @@
     height: 60px;
     width: 600px;
     border-style: solid;
-    border-color: grey;
+    border-color: rgb(47, 51, 54);
     border-width: 1px;
     margin-top: 12px;
 }
