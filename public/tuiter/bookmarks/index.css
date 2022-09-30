@@ -140,26 +140,11 @@
     color: red;
 }
 
-.wd-icon-first {
-    text-decoration: none;
-    padding-right: 12px;
-}
-
-.wd-icon-second {
-    text-decoration: none;
-    padding-right: 12px;
-}
-
-.wd-icon-third {
-    text-decoration: none;
-    padding-right: 12px;
-}
-
-.wd-icon-fourth {
+.wd-icon-decoration {
     text-decoration: none;
 }
 
-.span-spacing {
+.wd-span-spacing {
     margin-right: 90px;
 }
 
@@ -170,4 +155,9 @@
     border-color: rgb(47, 51, 54);
     border-width: 1px;
     margin-top: 12px;
+}
+
+.wd-number-padding {
+    padding-left: 12px;
+    padding-right: 0;
 }
