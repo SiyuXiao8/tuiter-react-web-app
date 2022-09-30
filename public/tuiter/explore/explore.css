@@ -1,0 +1,140 @@
+.wd-first-div {
+    height: 105px;
+    width: 850px;
+}
+
+.wd-all-round {
+    border-radius: 20px;
+}
+
+.wd-search-size {
+    width: 80%;
+    height: 35px;
+    float: left;
+}
+
+.wd-background-color-darkGary {
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-gear {
+    font-size: 40px;
+    color: rgb(29,161,242);
+    position: relative;
+    float: right;
+    margin-right: 12px;
+    top: -7px;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-hyperlink-first {
+    color: rgb(29,161,242);
+    font-weight: 15;
+    padding: 16px;
+    /*border-bottom-style: solid;*/
+    /*border-bottom-width: 4px;*/
+}
+
+.wd-hyperlink {
+    color: rgb(110, 118, 125);
+    font-weight: 15;
+    padding: 16px;
+}
+
+.wd-span-margin {
+    margin: 24px;
+}
+
+.wd-first-link-underline {
+    color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-width: 4px;
+    left: 14px;
+    top: 15px;
+}
+
+.wd-first-input-pad-left {
+    padding-left: 50px;
+}
+
+.wd-glass {
+    top: 10px;
+    left: 35px;
+}
+
+.wd-second-grey-div {
+    color: transparent;
+    width: 850px;
+    height: 15px;
+}
+
+.wd-third-div {
+    width: 850px;
+    height: 90px;
+    border-bottom: none;
+}
+
+.wd-post-text {
+    font-weight: 13;
+    color: rgb(110, 118, 125);
+}
+
+.wd-ellipsis-grey {
+    color: rgb(110, 118, 125);
+}
+
+.wd-first-ellipsis-pos {
+    left: 800px;
+    top: -15px;
+}
+
+.wd-second-ellipsis-pos {
+    left: 800px;
+}
+
+.wd-topic-margin {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.wd-fourth-div {
+    width: 850px;
+    height: 90px;
+    border-top: none;
+}
+
+.wd-fifth-div {
+    height: 120px;
+    width: 850px;
+}
+
+.wd-NYT {
+    height: 20px;
+    width: 20px;
+    top: 5px;
+}
+
+.wd-fifth-div-inner-div {
+    margin-top: 16px;
+}
+
+.wd-NYT-H4 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.wd-news-body {
+    margin-top: -10px;
+}
+
+.wd-new-pic {
+    height: 100px;
+    width: 100px;
+    left: 718px;
+    top: -5px;
+}
