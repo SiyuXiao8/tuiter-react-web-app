@@ -69,7 +69,7 @@
 .wd-second-grey-div {
     color: transparent;
     width: 850px;
-    height: 15px;
+    height: 10px;
 }
 
 .wd-third-div {
@@ -137,4 +137,8 @@
     width: 100px;
     left: 718px;
     top: -5px;
+}
+
+.wd-border-width-1px {
+    border-width: 1px;
 }
