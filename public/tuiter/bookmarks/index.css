@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 
 .wd-first-div {
     height: 60px;
@@ -160,4 +163,26 @@
 .wd-number-padding {
     padding-left: 12px;
     padding-right: 0;
+}
+
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-border-color {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+
+.wd-relative-pos {
+    position: relative;
+}
+
+.wd-absolute-pos {
+    position: absolute;
 }
