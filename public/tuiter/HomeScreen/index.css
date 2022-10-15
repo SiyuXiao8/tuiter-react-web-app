@@ -1,0 +1,49 @@
+.wd-follow-btn-spacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-img-thumbnail {
+    height: 50px;
+    width: 50px;
+}
+
+.wd-search-twitter {
+    width: 90%;
+}
+
+.wd-cog {
+    left: 95%;
+    top: 0px;
+    padding-right: 1px;
+}
+
+.wd-glass {
+    left: 15px;
+    top: 0px;
+}
+
+.wd-starship {
+    width: 100%;
+}
+
+.wd-inner-pic-size {
+    height: 80px;
+    width: 80px;
+}
+
+.wd-underline {
+    text-decoration: none;
+}
+
+.wd-img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.wd-ellip {
+    left: 95%;
+    top: -10px;
+}
