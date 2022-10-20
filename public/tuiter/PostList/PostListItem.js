@@ -21,7 +21,6 @@ const postListItem = (posts) => {
                             <div class="text-muted">${posts.paragraph}</div>
                             <p class="text-muted">${posts.website}</p>
                          </div>
-                        
                     </div>
                     
                     <div class="mt-2 mb-2">
