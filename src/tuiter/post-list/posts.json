@@ -1,0 +1,23 @@
+[
+  {"userName": "Tesla",
+    "handle": "Tesla",
+    "time": "19h",
+    "thumbnail": "/images/tesla.png",
+    "description": "10 years of Supercharging. 46 countries. 35+ stalls. 20 billion miles charged.",
+    "bodyImage": "/images/charge.jpeg",
+    "commentCounts": "2,199",
+    "retuits": "3,472",
+    "likes": "28.2k"
+  },
+  {"userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "3h",
+    "thumbnail": "/images/elon.webp",
+    "description": "Congrats to SpaceX team on 48th launch this year! Falcon 9 now holds record for most launches of a single vehicle type in a year.",
+    "shoutOut": "@spaceX",
+    "bodyImage": "",
+    "commentCounts": "566",
+    "retuits": "340",
+    "likes": "5,969"
+  }
+]
