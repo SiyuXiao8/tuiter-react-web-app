@@ -22,6 +22,10 @@ const NavigationSidebar = (
                 <i className="fa-solid fa-hashtag"></i> Explore
             </Link>
             <Link to='/' className={`list-group-item
+                    ${active === '/'?'active':''}`}>
+                <i className="fa-solid fa-person-walking-arrow-right"></i> Labs
+            </Link>
+            <Link to='/' className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
                 <i className="fa-solid fa-bell"></i> Notifications
             </Link>

@@ -1,4 +1,3 @@
-import Nav from "../nav";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list/who-to-follow-list";
 import ExploreComponent from "./explore";
@@ -7,8 +6,8 @@ import HomeComponent from "./home";
 
 function Tuiter() {
     return(
-        <div className='row'>
-            <Nav/>
+        <div className='row mt-3'>
+
             <div className='col-2 col-md-2 col-lg-1 col-xl-2'>
                 <NavigationSidebar active="explore"/>
             </div>
