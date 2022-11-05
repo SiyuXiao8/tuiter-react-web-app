@@ -41,7 +41,7 @@ const EditProfile = () => {
                     </Link>
                 </div>
             </div>
-            <img alt="banner-image" className='wd-banner-size' src={`/images/${data.bannerPicture}`}></img>
+            <img alt="banner" className='wd-banner-size' src={`/images/${data.bannerPicture}`}></img>
             <div className='mt-2 position-relative'>
                 <img alt="user" className='position-absolute wd-profile rounded-circle' src={`/images/${data.profilePicture}`}></img>
             </div>
