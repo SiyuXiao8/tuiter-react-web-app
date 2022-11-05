@@ -1,0 +1,43 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "spacex.jpeg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 345,
+    "topic": "Tesla",
+    "userName": "Tesla",
+    "time": "4d",
+    "title": "what is tesla?",
+    "image": "tesla.png",
+    "liked": false,
+    "replies": 234,
+    "retuits": 452,
+    "likes": 7891,
+    "handle": "@tesla",
+    "tuit": "Tesla, Inc. is an American multinational automotive and clean energy company headquartered in Austin, Texas. Tesla designs and manufactures electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services."
+  },
+  {
+    "_id": 456,
+    "topic": "Python",
+    "userName": "Python1",
+    "time": "10d",
+    "title": "Python is the best",
+    "image": "python.png",
+    "liked": true,
+    "replies": 333,
+    "retuits": 444,
+    "likes": 5555,
+    "handle": "@python",
+    "tuit": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming."
+  }]
