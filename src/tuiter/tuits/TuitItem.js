@@ -30,7 +30,7 @@ const TuitItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img className='wd-thumbnail-size rounded-circle' src={`/images/${post.image}`}/>
+                    <img alt="user" className='wd-thumbnail-size rounded-circle' src={`/images/${post.image}`}/>
                 </div>
                 <div className="col-11">
                     <span className='fw-bold'>{post.userName} <i className="fa-solid fa-circle-check text-primary"></i></span>

@@ -1,4 +1,3 @@
-import Nav from "../../nav";
 import TodoLists from "./todo/todo-lists";
 import ConditionalOutput from "./conditional-output";
 import Styles from "./sytles";

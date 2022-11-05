@@ -16,9 +16,9 @@ const ProfileComponent = () => {
                     <span className='text-muted'>{profileData.tuitCount} Tweets</span>
                 </div>
             </div>
-            <img className='wd-banner-size' src={`/images/${profileData.bannerPicture}`}></img>
+            <img alt="banner" className='wd-banner-size' src={`/images/${profileData.bannerPicture}`}></img>
             <div className='mt-2 position-relative'>
-                <img className='position-absolute wd-profile rounded-circle' src={`/images/${profileData.profilePicture}`}></img>
+                <img alt="user" className='position-absolute wd-profile rounded-circle' src={`/images/${profileData.profilePicture}`}></img>
                 <Link to='/tuiter/edit-profile'>
                     <button className='btn btn-info rounded-pill float-end'>
                         Edit profile

@@ -1,6 +1,5 @@
 import React from "react";
 import postsArray from '../data/posts.json';
-import {useSelector} from "react-redux";
 import PostSummaryItem
     from "./post-summary-item";
 
