@@ -30,7 +30,7 @@
   {
     "_id": 456,
     "topic": "Python",
-    "userName": "Python1",
+    "userName": "Python",
     "time": "10d",
     "title": "Python is the best",
     "image": "python.png",
