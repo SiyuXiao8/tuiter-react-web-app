@@ -1,8 +1,9 @@
 import React from "react";
 import './index.css';
-import TuitStats from "./TuitStats";
+// import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import{deleteTuit} from "../reducers/tuits-reducer";
+// import{deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -24,7 +25,8 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        // dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <li className="list-group-item">
@@ -40,12 +42,26 @@ const TuitItem = (
                     <p>{post.tuit}</p>
                 </div>
             </div>
-            <div>
-                <TuitStats
-                    replies={post.replies}
-                    retuits={post.retuits}
-                    likes={post.likes}
-                    liked={post.liked}/>
+
+            <div className='ms-5'>
+                <i className="fa-regular fa-comment me-1"></i>
+                {post.replies}
+                <i className="fa-solid fa-retweet ms-5 me-1"></i>
+                {post.retuits}
+                <span className='ms-5'>Likes: {post.likes}</span>
+                <i onClick={()=> dispatch(updateTuitThunk({
+                    ...post,
+                    likes: post.likes + 1
+                }))}
+                    className="fa-regular fa-thumbs-up fs-5 ms-1 me-2"></i>
+                Dislikes: {post.dislikes}
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...post,
+                    dislikes: post.dislikes + 1
+                }))}
+                   className="fa-regular fa-thumbs-down fs-5 ms-2"></i>
+
+                <i className="fa-regular fa-share-from-square ms-5"></i>
             </div>
         </li>
     );

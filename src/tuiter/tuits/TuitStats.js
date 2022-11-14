@@ -8,7 +8,6 @@ const TuitStats = (
         liked
     }
 ) => {
-
     return (
         <div className='row ms-5'>
             <div className='col-3'>
