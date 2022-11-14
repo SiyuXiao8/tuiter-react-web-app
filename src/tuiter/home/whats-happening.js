@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {createTuit} from "../reducers/tuits-reducer";
 import {useDispatch} from "react-redux";
 import {createTuitThunk} from "../../services/tuits-thunks";
 

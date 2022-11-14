@@ -11,7 +11,7 @@ const TuitsList = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitThunk())
-    },[])
+    },[dispatch])
     // removed ,[] dependency array
     // const postArray = useSelector(state => state.tuits);
     return (
